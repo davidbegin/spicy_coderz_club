@@ -1,0 +1,8 @@
+{
+"type": "file",
+"options": {
+  "path": "logs/vault_audit.log",
+  "log_raw": "true",
+   "hmac_accessor": "false"
+  }
+}
