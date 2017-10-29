@@ -8,7 +8,6 @@ This folder contains scripts for Spicy Admins to be able to:
   * Generate Daily Tokens
   * Store Passwords in Daily Tokens Cubbyholes
   * Wrap Cubbyhole Tokens
-  * Generate Daily Tokens that are automatically wrapped (in Level 3)
   * Generate tokens for each of the 3 Spicy Coderz Club Memembers
 
 ## Getting Started

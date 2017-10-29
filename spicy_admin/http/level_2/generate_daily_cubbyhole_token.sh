@@ -9,4 +9,4 @@ curl                                       \
     --header "X-Vault-Token: $VAULT_TOKEN" \
     --request POST                         \
     --data @json/create_token.json         \
-    http://127.0.0.1:8200/v1/auth/token/create
+    http://127.0.0.1:8200/v1/auth/token/create | jq
