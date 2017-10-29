@@ -13,7 +13,7 @@ vault audit-enable file file_path=vault_audit.log log_raw=true hmac_accessor=fal
 ```
 
 ```bash
-# CREATE DELETE AUDIT
+vault audit-disable file
 ```
 
 ```bash
