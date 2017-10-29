@@ -9,6 +9,8 @@
 
 **Write password in cubbyhole daily token:**
 ```bash
+export DAILY_PASSWORD=<insert password from password generator>
+
 ./write_password_in_cubbyhole.sh
 ```
 

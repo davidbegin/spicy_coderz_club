@@ -1,15 +1,11 @@
 # Using the Vault CLI for Spicy Clients
 
-#### Read
-
+**Unwrap Daily Cubbyhole Token:**
 ```bash
-export VAULT_TOKEN=<insert Vault token given by Spicy Admin>
-
-vault read cubbyhole/spicy_coderz_clubhouse
+vault unwrap <insert token given to you by Spicy Admin>
 ```
 
-#### Unwrap
-
+**Read Secret from Cubbyhole of Daily token:**
 ```bash
-vault unwrap dfa718bc-0f95-60b0-43c2-e23ed224e042
+vault read cubbyhole/spicy_coderz_clubhouse
 ```
